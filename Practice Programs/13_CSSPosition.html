@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        #id1{
+            position: relative;
+            top: 50px;
+            left: 20px;
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+        }
+        #id2{
+            position: absolute;
+            margin: 10px 10px;
+            top: 50px;
+            left: 50px;
+            height: 100px ;
+            width: 100px;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div id="id1">Lorem ipsum dolor sit amet.
+        <div id="id2">Lorem ipsum dolor sit amet.</div>
+    </div>
+</body>
+</html>
